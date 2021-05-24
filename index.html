@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+
+    <script>
+        notas = []
+        notas = calcularNotas()
+
+        function calculaMedia(notas) {
+            let media = 0
+            let contador
+            let soma = 0
+            for (let i = 0; i < notas.length; i++) {
+                contador++
+                soma += notas[i]
+                media = soma / contador
+            }
+            return media
+        }
+
     <script>      
         function cadastrarNota(nota1, nota2, nota3) {
                 return [nota1, nota2, nota3]
@@ -17,8 +36,27 @@
       function mostraMedia(media) {
            alert(media.tofixed(2))
        }
+      
+  MinhaNovaBrach
+    <script>
+        notas = []
+        notas = calcularNotas()
+
+        function calculaMedia(notas) {
+            let media = 0
+            let contador
+            let soma = 0
+            for (let i = 0; i < notas.length; i++) {
+                contador++
+                soma += notas[i]
+                media = soma / contador
+            }
+            return media
+        }
+
 
 
     </script>
 </body>
+
 </html>
